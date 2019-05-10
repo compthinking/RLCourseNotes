@@ -2,6 +2,7 @@
 layout: post
 title: Contents
 ---
+
 <span class="newthought">These notes</span> 
 {% include sidenote.html id="sdid" note="These notes and the general content of the first half of the course were primarily inspired by the following course:<br>- Stanford [CS228](https://cs228.stanford.edu/). Those notes were originally written by [Volodymyr Kuleshov](http://www.stanford.edu/~kuleshov) and [Stefano Ermon](http://cs.stanford.edu/~ermon/), with the [help](https://github.com/ermongroup/cs228-notes/commits/master) of many students and course staff. Once we switch to Decision Making you can check out their course and the related textbook to go even further on the topic of PGMs.<br><br>
 You can find other relevant resources for our course on the [Resources Gingko Page](https://gingkoapp.com/4yf7qa). This list be update as needed throughout the course.
