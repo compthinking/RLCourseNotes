@@ -1,10 +1,10 @@
-baseurl: /cs228-notes
+baseurl: /ECE493T25S19
 title: Probabilistic graphical modeling course
-subtitle: Lecture notes for Stanford cs228.
-author: Volodymyr Kuleshov
+subtitle: Lecture notes for UWaterloo ECE 493 T25.
+author: Mark Crowley. Based on original CS228 by Volodymyr Kuleshov, Ermon Group
 simple_search: http://google.com/search
-description: Lecture notes for Stanford cs228.
-name: cs228-notes
+description: Lecture notes for UWaterlo ECE 493 T25.
+name: ECE493T25
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 permalink: /articles/:short_year/:title
 timezone: America/New_York
