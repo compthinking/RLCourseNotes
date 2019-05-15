@@ -92,9 +92,9 @@ In the directed case, we found that $$I(G) \subseteq I(p)$$, but there were dist
 {% include maincolumn_img.html src='assets/img/mrf-bn-comparison.png' caption='Examples of probability distributions that have a perfect directed graphical representation but no undirected representation, and vice-versa.' %}
 
 
-## Conditional Random Fields
+## Conditional Random Fields (Skip for now)
 
-An important special case of Markov Random Fields arises when they are applied to model a conditional probability distribution $$p(y\mid x)$$. In this case, $$x \in \mathcal{X}$$ and $$y \in \mathcal{Y}$$ are vector-valued variables; we are typically given $$x$$ and want to say something interesting for $$y$$. Typically, distributions of this sort will arise in a supervised learning setting, where $$y$$ will be a vector-valued label that we will be trying to predict. This setting is typically referred to as *structured prediction*.
+An important {% include sidenote.html id="scrf" note="In the interest of time we'll skip discussion of CRFs in class, but they are an important example of how flexible PGMs can be. We may come back to them later in the course." %}special case of Markov Random Fields arises when they are applied to model a conditional probability distribution $$p(y\mid x)$$. In this case, $$x \in \mathcal{X}$$ and $$y \in \mathcal{Y}$$ are vector-valued variables; we are typically given $$x$$ and want to say something interesting for $$y$$. Typically, distributions of this sort will arise in a supervised learning setting, where $$y$$ will be a vector-valued label that we will be trying to predict. This setting is typically referred to as *structured prediction*.
 
 ### Example
 
@@ -117,7 +117,6 @@ $$ Z(x) = \sum_{y \in \mathcal{Y}} \prod_{c \in C} \phi_c(x_c,y_c). $$
 Note that in this case, the partition constant now depends on $$x$$ (therefore, we say that it is a function), which is not surprising: $$p(y\mid x)$$ is a probability over $$y$$ that is parametrized by $$x$$, i.e. it encodes a different probability function for each $$x$$. In that sense, a conditional random field results in an instantiation of a new Markov Random Field for each input $$x$$.
 
 ### Example (continued)
-
 
 More formally, suppose $$p(y\mid x)$$ is a chain CRF with two types of factors: image factors $$\phi(x_i, y_i)$$ for $$i = 1, ..., n$$ — which assign higher values to $$y_i$$ that are consistent with an input $$x_i$$ — as well as pairwise factors $$\phi(y_i, y_{i+1})$$ for $$i = 1, ..., n-1$$. We may also think of the $$\phi(x_i,y_i)$$ as probabilities $$p(y_i\mid x_i)$$ given by, say, standard (unstructured) softmax regression; the $$\phi(y_i, y_{i+1})$$ can be seen as empirical frequencies of letter co-occurrences obtained from a large corpus of English text (e.g. Wikipedia).
 
