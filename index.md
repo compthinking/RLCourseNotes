@@ -62,7 +62,7 @@ More practical applications of these methods are used regularly in areas such as
 ## Decision Making Under Uncertainty
 1. **Causation vs Correlation:** how to model probabilistic causal relationships, relation to decision making   
 1. **Influence Diagrams**: a simple way to add decisions to PGMs
-1. **Bayesian Optimization: Upper Confidence Bounds, Multi-armed bandits, Thompson Sampling
+1. **Bayesian Optimization:** Upper Confidence Bounds, Multi-armed bandits, Thompson Sampling
 1. **Markov Decision Processes (MDPs)**
 1. **Multi-armed bandits (MAB)** 
 1. **Monte-Carlo Tree Search:** a way of solving MABs, also useful later for the latest Deep RL solutions
