@@ -36,18 +36,18 @@ More practical applications of these methods are used regularly in areas such as
 
 1. [Bayesian networks](representation/directed/): Definitions. Representations via directed graphs. Independencies in directed models. 
 
-2. *(NEW)* [Markov random fields](representation/undirected/): Undirected vs directed models. Independencies in undirected models. Conditional random fields.
+2. [Markov random fields](representation/undirected/): Undirected vs directed models. Independencies in undirected models. Conditional random fields.
 
 1. [PGM Examples](representation/examples/) 
 
 
 ## Inference
 
-1. *(NEW)* [Variable elimination](inference/ve/) The inference problem. Variable elimination. Complexity of inference.
+1. [Variable elimination](inference/ve/) The inference problem. Variable elimination. Complexity of inference.
 
 2. (optional) [Belief propagation](inference/jt/): The junction tree algorithm. Exact inference in arbitrary graphs. Loopy Belief Propagation.
 
-3. (optional) [MAP inference](inference/map/): Max-sum message passing. Graphcuts. Linear programming relaxations. Dual decomposition. 
+3. *(NEW)* [MAP inference](inference/map/): Max-sum message passing. Graphcuts. Linear programming relaxations. Dual decomposition. 
 
 4. [Sampling-based inference](inference/sampling/): Monte-Carlo sampling. Forward Sampling. Rejection Sampling. Importance sampling. Markov Chain Monte-Carlo. Applications in inference.
 
