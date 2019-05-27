@@ -47,9 +47,9 @@ More practical applications of these methods are used regularly in areas such as
 
 2. (optional) [Belief propagation](inference/jt/): The junction tree algorithm. Exact inference in arbitrary graphs. Loopy Belief Propagation.
 
-3. *(NEW)* [MAP inference](inference/map/): Max-sum message passing. Graphcuts. Linear programming relaxations. Dual decomposition. 
+3. [MAP inference](inference/map/): Max-sum message passing. Graphcuts. Linear programming relaxations. Dual decomposition. 
 
-4. [Sampling-based inference](inference/sampling/): Monte-Carlo sampling. Forward Sampling. Rejection Sampling. Importance sampling. Markov Chain Monte-Carlo. Applications in inference.
+4. *(NEW)* [Sampling-based inference](inference/sampling/): Monte-Carlo sampling. Forward Sampling. Rejection Sampling. Importance sampling. Markov Chain Monte-Carlo. Applications in inference.
 
 5. (optional) [Variational inference](inference/variational/): Variational lower bounds. Mean Field. Marginal polytope and its relaxations. 
 
