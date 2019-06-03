@@ -28,7 +28,7 @@ More practical applications of these methods are used regularly in areas such as
 
 1. [Introduction](preliminaries/introduction/): What is probabilistic graphical modeling? Overview of the course.
 
-2. [Review of probability theory](preliminaries/probabilityreview): Probability distributions. Conditional probability. Random variables (*under construction*).
+2. [Review of probability theory](preliminaries/probabilityreview): Probability distributions. Conditional probability. Random variables.
 
 3. [Examples of real-world applications](preliminaries/applications): Image denoising. RNA structure prediction. Syntactic analysis of sentences. Optical character recognition (*under construction*).
 
@@ -49,15 +49,17 @@ More practical applications of these methods are used regularly in areas such as
 
 3. [MAP inference](inference/map/): Max-sum message passing. Graphcuts. Linear programming relaxations. Dual decomposition. 
 
-4. *(NEW)* [Sampling-based inference](inference/sampling/): Monte-Carlo sampling. Forward Sampling. Rejection Sampling. Importance sampling. Markov Chain Monte-Carlo. Applications in inference.
+4. [Sampling-based inference](inference/sampling/): Monte-Carlo sampling. Forward Sampling. Rejection Sampling. Importance sampling. Markov Chain Monte-Carlo. Applications in inference.
+
+5. [Probabilistic Programming](probprog/basic/): Alternative approach to modelling probability distributions and performing inference. A/B Testing introduction and using MCMC to solve it.
 
 5. (optional) [Variational inference](inference/variational/): Variational lower bounds. Mean Field. Marginal polytope and its relaxations. 
 
 ## Learning
 
-1. **Learning in directed models:** Maximum likelihood estimation. Learning theory basics. Maximum likelihood estimators for Bayesian networks.
+1. *(New)* [Learning in directed models](learning/directed/): Maximum likelihood estimation. Learning theory basics. Maximum likelihood estimators for Bayesian networks.
 
-4. **Bayesian learning**: Bayesian paradigm. Conjugate priors. Examples (*under construction*). The basics, enough to understand Multi-Armed Bandits (MABs). 
+4. *(New)* [Bayesian learning](learning/bayesian/): Bayesian paradigm. Conjugate priors. The basics, enough to understand Multi-Armed Bandits (MABs). 
 
 ## Decision Making Under Uncertainty
 1. **Causation vs Correlation:** how to model probabilistic causal relationships, relation to decision making   
