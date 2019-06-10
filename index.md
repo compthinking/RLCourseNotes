@@ -57,16 +57,16 @@ More practical applications of these methods are used regularly in areas such as
 
 ## Learning
 
-1. *(New)* [Learning in directed models](learning/directed/): Maximum likelihood estimation. Learning theory basics. Maximum likelihood estimators for Bayesian networks.
+1. [Learning in directed models](learning/directed/): Maximum likelihood estimation. Learning theory basics. Maximum likelihood estimators for Bayesian networks.
 
-4. *(New)* [Bayesian learning](learning/bayesian/): Bayesian paradigm. Conjugate priors. The basics, enough to understand Multi-Armed Bandits (MABs). 
+4. [Bayesian learning](learning/bayesian/): Bayesian paradigm. Conjugate priors. The basics, enough to understand Multi-Armed Bandits (MABs). 
 
 ## Decision Making Under Uncertainty
-1. **Causation vs Correlation:** how to model probabilistic causal relationships, relation to decision making   
-1. **Influence Diagrams**: a simple way to add decisions to PGMs
-1. **Bayesian Optimization:** Upper Confidence Bounds, Multi-armed bandits, Thompson Sampling
+1. *(New!)* [Multi-armed bandits (MAB)](decision/MultiArmedBandits/) : The simplest model of Reinforcement Learning. Example: A/B Testing.
+1. Causation vs Correlation: how to model probabilistic causal relationships, relation to decision making   
+1. Influence Diagrams: a simple way to add decisions to PGMs
+1. **Bayesian Optimization:** Upper Confidence Bounds, Thompson Sampling
 1. **Markov Decision Processes (MDPs)**
-1. **Multi-armed bandits (MAB)** 
 1. **Monte-Carlo Tree Search:** a way of solving MABs, also useful later for the latest Deep RL solutions
 
 ## Deep Reinforcement Learning
